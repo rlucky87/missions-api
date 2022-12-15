@@ -22,3 +22,5 @@ Reservation.create!(listing_id: Listing.first.id, start_date: "2016-10-11".to_da
 Reservation.create!(listing_id: Listing.first.id, start_date: "2016-10-13".to_date, end_date: "2016-10-15".to_date)
 Reservation.create!(listing_id: Listing.first.id, start_date: "2016-10-16".to_date, end_date: "2016-10-20".to_date)
 Reservation.create!(listing_id: Listing.second.id, start_date: "2016-10-15".to_date, end_date: "2016-10-18".to_date)
+
+Mission.create!(listing_id:)
